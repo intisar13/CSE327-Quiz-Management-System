@@ -1,5 +1,5 @@
 const { MongoClient, ServerApiVersion } = require("mongodb");
-
+//Singleton
 class Database {
   static instance = null;
 
